@@ -3,6 +3,8 @@ Script para automatizar compilações de módulos do Kernel Linux
 
 ## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
+#### Passos
+
 1- Certifique-se que exista na pasta de compilação o arqivo Makefile e o modulo.c.
 
 2- Clone o repositório para a pasta onde será compilado o módulo de kernel:
