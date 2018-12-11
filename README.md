@@ -1,9 +1,9 @@
 # DriverToolkit
 Script para automatizar compilações de módulos do Kernel Linux
 
-## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
+### Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
-#### Passos
+#### Passos:
 
 1- Certifique-se que exista na pasta de compilação o arqivo Makefile e o modulo.c.
 
