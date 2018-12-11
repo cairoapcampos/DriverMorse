@@ -1,4 +1,4 @@
-## DriverToolkit
+## DriverToolkit V.1.0
 Script para automatizar compilações de módulos do Kernel Linux
 
 ### Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
