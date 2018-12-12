@@ -3,19 +3,19 @@
 clear
 
 menu() {
-   echo "######################################################"
-   echo "#####             Driver Tool kit V.1.0          #####"
-   echo "######################################################"
-   echo "### 1 - Compilar Módulo                              #"
-   echo "### 2 - Limpar Compilação                            #"
-   echo "### 3 - Listar conteúdo do diretório de compilação   #"
-   echo "### 4 - Subir módulo para o Kernel                   #"
-   echo "### 5 - Exibir mensagens de log do Kernel            #"
-   echo "### 6 - Listar o driver                              #"
-   echo "### 7 - Remover módulo do Kernel                     #"
-   echo "### 8 - Escrever uma mensagem em código Morse        #"
-   echo "### 0 - Exit/Sair                                    #"
-   echo "######################################################"
+   echo "########################################################"
+   echo "######        Morse Driver Tool Box (V.1.1)      #######"
+   echo "########################################################"
+   echo "###  1 - Compilar Módulo                             ###"
+   echo "###  2 - Limpar Compilação                           ###"
+   echo "###  3 - Listar conteúdo do diretório de compilação  ###"
+   echo "###  4 - Subir módulo para o Kernel                  ###"
+   echo "###  5 - Exibir mensagens de log do Kernel           ###"
+   echo "###  6 - Listar o driver                             ###"
+   echo "###  7 - Remover módulo do Kernel                    ###"
+   echo "###  8 - Escrever uma mensagem em código Morse       ###"
+   echo "###  0 - Sair                                        ###"
+   echo "########################################################"
    echo " "
    echo -n "Escolha uma das opções acima:"
    read opcao
@@ -102,7 +102,7 @@ echo " "
 echo -n "Digite sua mensagem:"
 read msg
 echo "$msg" > /dev/morse0
-RtMenu
+RtMenuRPT
 }
 
 InitFunct(){
@@ -112,7 +112,7 @@ echo " "
 
 RtMenu(){
 echo " "
-echo -n "Deseja voltar ao Menu principal? Digite \"s\" para sim: "
+echo -n "Para voltar ao Menu digite \"s\": "
 read aswr
 if [ $aswr = s ]
 then
@@ -123,7 +123,24 @@ else
     echo
     echo "Opção Errada!"
     RtMenu
+fi
+}
 
+RtMenuRPT(){
+echo " "
+echo -n "Para voltar ao Menu digite \"s\". Para digitar uma nova mensagem digite \"n\": "
+read aswr
+if [ $aswr = s ]
+then
+    clear
+    menu
+elif [ $aswr = n ]
+then
+    WriteMsg
+else
+    echo
+    echo "Opção Errada!"
+    RtMenuRPT
 fi
 }
 
