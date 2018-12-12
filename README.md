@@ -1,4 +1,4 @@
-## DriverToolkit V.1.1
+## DriverMorse V.1.1
 Script para automatizar compilações de módulos do Kernel Linux
 
 ### Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
