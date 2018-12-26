@@ -1,12 +1,10 @@
-## Morse Driver Tool Box (V.1.1)
+## DriverMorse (V.1.1)
 
 Script para automatizar a compilação do módulo Morse para o Kernel Linux
 
 ### Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
-1- Certifique-se que exista na pasta de compilação o arquivo Makefile e o morse.c.
-
-2- Clone o repositório para a pasta onde será compilado o módulo de kernel:
+1- Clone o repositório para a pasta onde será compilado o módulo de kernel:
 
 `git clone https://github.com/cairoapcampos/DriverToolkit.git`
 
