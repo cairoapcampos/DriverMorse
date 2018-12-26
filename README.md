@@ -6,7 +6,7 @@ Script para automatizar a compilação do módulo Morse para o Kernel Linux
 
 1- Clone o repositório para a pasta onde será compilado o módulo de kernel:
 
-`git clone https://github.com/cairoapcampos/DriverToolkit.git`
+`git clone https://github.com/cairoapcampos/DriverMorse.git`
 
 2- Mova os arquivos para a pasta de compilação:
 
