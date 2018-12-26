@@ -26,7 +26,7 @@ Script para automatizar compilações de módulos do Kernel Linux
 
 `./DriverToolkit.sh`
 
-6- Em um outro terminal, executar o comando abaixo para ver o que está sendo escrito na serial:
+6- Em um outro terminal, executar o comando abaixo para ver o que está sendo escrito na serial do Arduino:
 
 
 `minicom -b 9600 -D /dev/ttyUSB0`
