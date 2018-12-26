@@ -12,7 +12,7 @@ Script para automatizar a compilação do módulo Morse para o Kernel Linux
 
 `cd DriverMorse`
 
-3- Dê permissão de execução para o script DriverToolkit.sh`:
+3- Dê permissão de execução para o script DriverToolkit.sh:
 
 `chmod +x DriverToolkit.sh`
 
