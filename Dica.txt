@@ -1,0 +1,3 @@
+Em um terminal executar o comando abaixo para examinar o que está sendo escrito na interface:
+
+minicom -b 9600 -D /dev/ttyUSB0
