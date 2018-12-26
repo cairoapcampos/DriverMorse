@@ -4,7 +4,7 @@ Script para automatizar a compilação do módulo Morse para o Kernel Linux
 
 ### Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
-1- Certifique-se que exista na pasta de compilação o arquivo Makefile e o modulo.c.
+1- Certifique-se que exista na pasta de compilação o arquivo Makefile e o morse.c.
 
 2- Clone o repositório para a pasta onde será compilado o módulo de kernel:
 
