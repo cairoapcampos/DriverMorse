@@ -25,3 +25,8 @@ Script para automatizar compilações de módulos do Kernel Linux
 5- Execute o script:
 
 `./DriverToolkit.sh`
+
+6- Em um outro terminal, executar o comando abaixo para ver o que está sendo escrito na serial:
+
+
+`minicom -b 9600 -D /dev/ttyUSB0`
