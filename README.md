@@ -1,6 +1,6 @@
 ## Morse Driver Tool Box (V.1.1)
 
-Script para automatizar compilações de módulos do Kernel Linux
+Script para automatizar a compilação do módulo Morse para o Kernel Linux
 
 ### Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
