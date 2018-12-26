@@ -8,23 +8,18 @@ Script para automatizar a compilação do módulo Morse para o Kernel Linux
 
 `git clone https://github.com/cairoapcampos/DriverMorse.git`
 
-2- Mova os arquivos para a pasta de compilação:
+2- Entre na pasta do código do driver:
 
-`mv DriverToolkit/* .`
+`cd DriverMorse`
 
-3- Remova a pasta vazia
-
-`rm -R DriverToolkit`
-
-4- Dê permissão de execução para o script:
+3- Dê permissão de execução para o script DriverToolkit.sh`:
 
 `chmod +x DriverToolkit.sh`
 
-5- Execute o script:
+4- Execute o script:
 
 `./DriverToolkit.sh`
 
-6- Em um outro terminal, executar o comando abaixo para ver o que está sendo escrito na serial do Arduino:
-
+5- Em um outro terminal, executar o comando abaixo para ver o que está sendo escrito na serial do Arduino:
 
 `minicom -b 9600 -D /dev/ttyUSB0`
