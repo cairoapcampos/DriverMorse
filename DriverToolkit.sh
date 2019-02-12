@@ -1,5 +1,11 @@
 #!/bin/bash
 
+######################################################
+# Script para automatizar utilização do driver Morse #
+# Versão: 1.0                                        #
+# Autor: Cairo Ap. Campos                            #
+######################################################
+
 clear
 
 menu() {
